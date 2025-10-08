@@ -1,0 +1,22 @@
+{
+    "id": "Sensor Temperatura y humedad 1",
+    "type": "Temperatura y humedad",
+    "attribute": {
+        "location": {
+            "type": "String",
+            "value": "Puerta"
+        },
+        "temperature": {
+            "type": "Float",
+            "value": 20
+        },
+        "humidity": {
+            "type": "Float",
+            "value": 80
+        },
+        "date": {
+            "type": "Datetime",
+            "value": "2024-04-02 20:22:44"
+        }
+    }
+}
