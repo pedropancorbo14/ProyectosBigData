@@ -37,6 +37,7 @@ Preguntas:
     Grupos (codigo) - Alumnos (grupo) 1-N
     Grupos (padre) - Grupos (codigo) 1-1 relación padre hijo en la misma tabla
 
+    ESTRUCTURA
     Alumnos -> Cursos -> Módulos <- Horas
     Alumnos -> Calificaciones <- Cursos
     Alumnos -> Grupos
