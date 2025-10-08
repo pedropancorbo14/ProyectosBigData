@@ -21,6 +21,14 @@ Preguntas:
     Sí
 
 - Identifica las "claves" o "IDs" que podrían servir para relacionar unos ficheros con otros:  
+    CLAVES
+    Calificaciones (evalución, alumno, contenido)
+    Grupos(código)
+    Alumnos (NIA)
+    Módulos(curso, código)
+    Horas(código)
+
+    RELACIONES
     Cursos (código) - Alumnos (curso) 1-N
     Módulos (curso) - Cursos (codigo) N-1
     Horas (CODIGO) - Módulos (codigo) 1-N
