@@ -27,6 +27,7 @@ Preguntas:
     Cursos (codigo) - Calificaciones (curso) 1-N
     Calificaciones (alumno) - Alumnos (NIA) N-1
     Grupos (codigo) - Alumnos (grupo) 1-N
+    Grupos (padre) - Grupos (codigo) 1-1 relación padre hijo en la misma tabla
 
 
 
