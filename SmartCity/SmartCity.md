@@ -1,7 +1,7 @@
-#SMART CITY
+# SMART CITY
 
 Objetivo: Simular una ciudad inteligente.
 
-#Tareas
+# Tareas
 
 Tarea 1: sensor.json

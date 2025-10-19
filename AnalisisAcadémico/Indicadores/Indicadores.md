@@ -1,9 +1,8 @@
-Análisis Académico - Tarea 1: La Primera Inspección
+# Análisis Académico - Tarea 1: La Primera Inspección
 
+## Indicadores:
 
-Indicadores:
-
-Preguntas: 
+### Preguntas: 
 
 - ¿Cuál es el separador de columnas (coma , o punto y coma ; )?: ","
 
