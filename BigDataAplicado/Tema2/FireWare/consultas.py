@@ -40,4 +40,4 @@ for i in range(400):
     print(f"\nActualización #{i+1}")
     for entidad in ENTITIES:
         updateEntitie(entidad)
-    time.sleep(1)  # 1 segundo entre cada ciclo para no saturar Orion
+    time.sleep(5)  # 5 segundo entre cada ciclo para no saturar Orion
