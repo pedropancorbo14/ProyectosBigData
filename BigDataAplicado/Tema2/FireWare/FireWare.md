@@ -41,26 +41,47 @@ Llamada a la api de orion: http://localhost:1026/v2/subscriptions
 Json:
 
 {
-    "description": "Notificar cambios en sensores de temperatura y humedad",
+    "description": "Suscripcion QuantumLeap Temperatura y Humedad",
     "subject": {
         "entities": [
             {
-                "idPattern": "Sensor_TempHum_1",
+                "idPattern": ".*",
                 "type": "Temperatura_y_humedad"
             }
         ],
         "condition": {
-            "attrs": ["temperature", "humidity"]
+            "attrs": [
+                "temperature",
+                "humidity"
+            ]
         }
     },
     "notification": {
+        "attrs": [
+            "id",
+            "type",
+            "location",
+            "temperature",
+            "humidity",
+            "created_at",
+            "updated_at"
+        ],
         "http": {
-            "url": "http://localhost:3000/notify"
+            "url": "http://quantumleap:8668/v2/notify"
         },
-        "attrs": ["temperature", "humidity", "location"]
-    },
-    "throttling": 5
+        "metadata": [
+            "dateCreated",
+            "dateModified"
+        ]
+    }
 }
 
-
 ## 4. Carga de datos:
+
+Archivo consultas.py
+
+## 5. Consulta Mongodb
+
+./Images/Consulta1.png
+./Images/Consulta2.png
+./Images/Consulta3.png
